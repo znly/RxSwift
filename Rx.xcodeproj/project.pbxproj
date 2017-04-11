@@ -948,10 +948,6 @@
 		C8BF34CC1C2E426800416CAE /* Platform.Darwin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BF34C91C2E426800416CAE /* Platform.Darwin.swift */; };
 		C8BF34CD1C2E426800416CAE /* Platform.Darwin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BF34C91C2E426800416CAE /* Platform.Darwin.swift */; };
 		C8BF34CE1C2E426800416CAE /* Platform.Darwin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BF34C91C2E426800416CAE /* Platform.Darwin.swift */; };
-		C8BF34CF1C2E426800416CAE /* Platform.Linux.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BF34CA1C2E426800416CAE /* Platform.Linux.swift */; };
-		C8BF34D01C2E426800416CAE /* Platform.Linux.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BF34CA1C2E426800416CAE /* Platform.Linux.swift */; };
-		C8BF34D11C2E426800416CAE /* Platform.Linux.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BF34CA1C2E426800416CAE /* Platform.Linux.swift */; };
-		C8BF34D21C2E426800416CAE /* Platform.Linux.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BF34CA1C2E426800416CAE /* Platform.Linux.swift */; };
 		C8C0A4A11E886B1200B8215F /* Dematerialize.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C0A49F1E886B1200B8215F /* Dematerialize.swift */; };
 		C8C0A4A21E886B1200B8215F /* Dematerialize.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C0A49F1E886B1200B8215F /* Dematerialize.swift */; };
 		C8C0A4A31E886B1200B8215F /* Dematerialize.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C0A49F1E886B1200B8215F /* Dematerialize.swift */; };
@@ -1831,7 +1827,6 @@
 		C85B01671DB2ACAF006043C3 /* Platform.Darwin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Platform.Darwin.swift; sourceTree = "<group>"; };
 		C85B01681DB2ACAF006043C3 /* Platform.Linux.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Platform.Linux.swift; sourceTree = "<group>"; };
 		C85B01721DB2ACF2006043C3 /* Platform.Darwin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Platform.Darwin.swift; sourceTree = "<group>"; };
-		C85B01731DB2ACF2006043C3 /* Platform.Linux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Platform.Linux.swift; sourceTree = "<group>"; };
 		C85BA04B1C3878740075D68E /* PerformanceTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = PerformanceTests.app; path = Microoptimizations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C86409FB1BA593F500D3C4E8 /* Range.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Range.swift; sourceTree = "<group>"; };
 		C8640A021BA5B12A00D3C4E8 /* Repeat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repeat.swift; sourceTree = "<group>"; };
@@ -1963,7 +1958,6 @@
 		C8BCD3EC1C14B5FB005F1280 /* UIView+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Rx.swift"; sourceTree = "<group>"; };
 		C8BCD3F31C14B6D1005F1280 /* NSLayoutConstraint+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraint+Rx.swift"; sourceTree = "<group>"; };
 		C8BF34C91C2E426800416CAE /* Platform.Darwin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Platform.Darwin.swift; sourceTree = "<group>"; };
-		C8BF34CA1C2E426800416CAE /* Platform.Linux.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Platform.Linux.swift; sourceTree = "<group>"; };
 		C8C0A49F1E886B1200B8215F /* Dematerialize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dematerialize.swift; sourceTree = "<group>"; };
 		C8C0A4A01E886B1200B8215F /* Materialize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Materialize.swift; sourceTree = "<group>"; };
 		C8C217D41CB7100E0038A2E6 /* UITableView+RxTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+RxTests.swift"; sourceTree = "<group>"; };
@@ -2682,7 +2676,6 @@
 				C86781461DB8119900B2029A /* DataStructures */,
 				C85217F41E33F9D70015DD38 /* RecursiveLock.swift */,
 				C85B01721DB2ACF2006043C3 /* Platform.Darwin.swift */,
-				C85B01731DB2ACF2006043C3 /* Platform.Linux.swift */,
 				C8F03F441DBBA61B00AECC4C /* DispatchQueue+Extensions.swift */,
 			);
 			path = Platform;
@@ -2991,7 +2984,6 @@
 			children = (
 				C867816B1DB8129E00B2029A /* DataStructures */,
 				C8BF34C91C2E426800416CAE /* Platform.Darwin.swift */,
-				C8BF34CA1C2E426800416CAE /* Platform.Linux.swift */,
 				C8F03F491DBBAC0A00AECC4C /* DispatchQueue+Extensions.swift */,
 				C85217F61E33FBBE0015DD38 /* RecursiveLock.swift */,
 			);
@@ -4408,7 +4400,6 @@
 				C85106891C2D550E0075150C /* String+Rx.swift in Sources */,
 				EB15145E1DFFAACB00555E2C /* Optional.swift in Sources */,
 				C8093D121B8A72BE0088E94D /* ConnectableObservable.swift in Sources */,
-				C8BF34D01C2E426800416CAE /* Platform.Linux.swift in Sources */,
 				C8093D621B8A72BE0088E94D /* Observable+StandardSequenceOperators.swift in Sources */,
 				C8093D1A1B8A72BE0088E94D /* DistinctUntilChanged.swift in Sources */,
 				C8093D561B8A72BE0088E94D /* Observable+Binding.swift in Sources */,
@@ -4649,7 +4640,6 @@
 				C8093D731B8A72BE0088E94D /* ObserverBase.swift in Sources */,
 				C85106881C2D550E0075150C /* String+Rx.swift in Sources */,
 				C8093D111B8A72BE0088E94D /* ConnectableObservable.swift in Sources */,
-				C8BF34CF1C2E426800416CAE /* Platform.Linux.swift in Sources */,
 				EB15145D1DFFAACB00555E2C /* Optional.swift in Sources */,
 				C8093D611B8A72BE0088E94D /* Observable+StandardSequenceOperators.swift in Sources */,
 				C8093D191B8A72BE0088E94D /* DistinctUntilChanged.swift in Sources */,
@@ -4824,7 +4814,6 @@
 				C851068B1C2D550E0075150C /* String+Rx.swift in Sources */,
 				EB1514601DFFAACB00555E2C /* Optional.swift in Sources */,
 				C8F0BFB01BBBFB8B001B112F /* ConnectableObservable.swift in Sources */,
-				C8BF34D21C2E426800416CAE /* Platform.Linux.swift in Sources */,
 				C8F0BFB11BBBFB8B001B112F /* Observable+StandardSequenceOperators.swift in Sources */,
 				C8F0BFB21BBBFB8B001B112F /* DistinctUntilChanged.swift in Sources */,
 				C8F0BFB31BBBFB8B001B112F /* Observable+Binding.swift in Sources */,
@@ -5182,7 +5171,6 @@
 				C851068A1C2D550E0075150C /* String+Rx.swift in Sources */,
 				D2EBEB2C1BB9B6CA003A27DC /* Observable+Binding.swift in Sources */,
 				EB15145F1DFFAACB00555E2C /* Optional.swift in Sources */,
-				C8BF34D11C2E426800416CAE /* Platform.Linux.swift in Sources */,
 				D2EBEB041BB9B6C1003A27DC /* Concat.swift in Sources */,
 				D2EBEB3A1BB9B6D8003A27DC /* MainScheduler.swift in Sources */,
 				D2EBEB101BB9B6C1003A27DC /* Just.swift in Sources */,
